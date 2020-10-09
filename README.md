@@ -1,23 +1,29 @@
-# Panoptes
-CMS with OCR
+# panoptes-client
 
-A Content Management System with Optical Character Recognition feature to read text from a picture
-# Server setup
+## Project setup
+
 ```
 npm install
 ```
-# Client setup
+
+### Compiles and hot-reloads for development
+
 ```
-cd client/
+npm run serve
 ```
+
+### Compiles and minifies for production
+
 ```
-npm i
+npm run build
 ```
-> go back to root folder of project
-# Project run
+
+### Lints and fixes files
+
 ```
-npm run dev
+npm run lint
 ```
-Test Demo [here](https://morning-journey-40183.herokuapp.com/).
-# Task list
-- [x] CMS feature
+
+### Customize configuration
+
+See [Configuration Reference](https://cli.vuejs.org/config/).
